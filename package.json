@@ -2,6 +2,7 @@
   "name": "pages-spa-template",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://john-alessi.github.io/pages-spa-template/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
