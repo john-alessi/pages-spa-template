@@ -6,6 +6,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'src/**'
+      - '.github/**'
+      - '*.html'
+      - '*.json'
+      - '*.ts'
 
 jobs:
   build:
