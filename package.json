@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --base=./",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
   },
   "dependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
