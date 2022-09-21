@@ -5,7 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Edge",
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chromium (Linux)",
+            "url": "http://localhost:3000/#",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/usr/bin/chromium",
+            "runtimeArgs": [
+              "--new-window",
+              "--remote-debugging-port=9222",
+              "--disable-background-networking",
+            ],
+            "preLaunchTask": "start-dev-server",
+            "postDebugTask": "terminate-all",
+        },
+        {
+            "name": "Launch Edge (Windows)",
             "request": "launch",
             "type": "msedge",
             "url": "http://localhost:3000",
