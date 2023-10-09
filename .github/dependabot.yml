@@ -10,6 +10,6 @@ updates:
     schedule:
       interval: "daily"
   ignore: # testing something for work
-  - dependency-name: "@angular*"
-    update-types:
-    - "version-update:semver-minor"
+    - dependency-name: "@angular*"
+      update-types:
+      - "version-update:semver-minor"
