@@ -9,7 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-  ignore: # testing something for work
-    - dependency-name: "@angular*"
-      update-types:
-      - "version-update:semver-minor"
+    ignore: # testing something for work
+      - dependency-name: "@angular*"
+        update-types:
+          - "version-update:semver-minor"
